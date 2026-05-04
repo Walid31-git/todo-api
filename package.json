@@ -5,7 +5,7 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "test": "node --test --experimental-test-coverage tests/",
+    "test": "node --test --experimental-test-coverage tests/*.test.js",
     "lint": "eslint src/ tests/",
     "db:init": "node src/db-init.js"
   },
